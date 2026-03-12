@@ -1,3 +1,68 @@
+**Problema: Administración de Empleados con Diccionarios (Python)**
+
+**Contexto:** Ejercicio para principiantes para practicar diccionarios, menús, condicionales, ciclos y entrada de datos.
+
+**Estructura de Datos:**
+*   **Diccionario principal:** `empleados`.
+*   **Clave:** ID del empleado.
+*   **Valor:** Otro diccionario con 5 atributos (nombre, puesto, departamento, edad, salario).
+
+**Funcionamiento:**
+Menú repetitivo (`while True`) que ofrece las siguientes opciones:
+1.  **Agregar:** Solicitar datos y guardar en el diccionario.
+2.  **Actualizar:** Modificar datos de un empleado existente mediante su ID.
+3.  **Borrar:** Eliminar un empleado por su ID.
+4.  **Ver:** Listar todos los empleados recorriendo el diccionario con `for`.
+5.  **Salir:** Terminar el programa con `break`.
+
+## Problema: Administración básica de empleados usando un diccionario
+
+En una práctica de **programación en Python para estudiantes de nivel principiante**, se desea desarrollar un programa sencillo que permita **registrar y administrar empleados utilizando un diccionario**.
+
+El objetivo del ejercicio es practicar:
+
+* Uso de **diccionarios**
+* Uso de **menús**
+* **estructuras condicionales (`if`, `elif`)**
+* **ciclos (`while` y `for`)**
+* Entrada de datos mediante **teclado**
+
+El programa iniciará con un **diccionario vacío llamado `empleados`**.
+Cada empleado se guardará como un **registro dentro del diccionario**, donde:
+
+* **la clave** será el **ID del empleado**
+* **el valor** será otro diccionario con **5 atributos del empleado**
+
+Los **5 atributos** serán:
+
+* nombre
+* puesto
+* departamento
+* edad
+* salario
+
+El programa mostrará un **menú que se repetirá dentro de un ciclo `while True`** hasta que el usuario seleccione la opción de salir.
+
+### Opciones del menú
+
+**1. Agregar empleado**
+Se solicitan los datos del empleado y se guardan en el diccionario.
+
+**2. Actualizar empleado**
+Se solicita el ID del empleado y se ingresan nuevamente sus datos para actualizar la información.
+
+**3. Borrar empleado**
+Se solicita el ID del empleado que se desea eliminar del diccionario.
+
+**4. Ver diccionario de empleados**
+Se mostrarán todos los empleados registrados utilizando un **ciclo `for`** para recorrer el diccionario.
+
+**5. Salir**
+El programa termina usando la instrucción **`break`**.
+
+---
+
+
 A continuación se presentan **20 contextos diferentes** para ejercicios de **Python nivel principiante**, utilizando **diccionarios, menús, ciclos `while True`, condicionales `if/elif`, entrada de datos y recorrido con `for`**.
 
 ---
