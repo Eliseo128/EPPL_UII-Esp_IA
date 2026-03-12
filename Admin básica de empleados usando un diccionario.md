@@ -1,3 +1,20 @@
+**Problema: Administración de Empleados con Diccionarios (Python)**
+
+**Contexto:** Ejercicio para principiantes para practicar diccionarios, menús, condicionales, ciclos y entrada de datos.
+
+**Estructura de Datos:**
+*   **Diccionario principal:** `empleados`.
+*   **Clave:** ID del empleado.
+*   **Valor:** Otro diccionario con 5 atributos (nombre, puesto, departamento, edad, salario).
+
+**Funcionamiento:**
+Menú repetitivo (`while True`) que ofrece las siguientes opciones:
+1.  **Agregar:** Solicitar datos y guardar en el diccionario.
+2.  **Actualizar:** Modificar datos de un empleado existente mediante su ID.
+3.  **Borrar:** Eliminar un empleado por su ID.
+4.  **Ver:** Listar todos los empleados recorriendo el diccionario con `for`.
+5.  **Salir:** Terminar el programa con `break`.
+
 ## Problema: Administración básica de empleados usando un diccionario
 
 En una práctica de **programación en Python para estudiantes de nivel principiante**, se desea desarrollar un programa sencillo que permita **registrar y administrar empleados utilizando un diccionario**.
